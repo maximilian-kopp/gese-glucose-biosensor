@@ -1,0 +1,7 @@
+# Source: Yau 2024 research report, Figure 21, manuscript p. 16.
+# These two numbers are angle labels printed in the figure. They were not estimated from a curve.
+# The text (p. 16) states a 100 degree rotation; 235 - 135 = 100, which matches that sentence.
+# Marker photocurrent values were not digitized.
+condition_as_printed,printed_angle_deg,figure,page
+Empty stomach,135,Figure 21,16
+Half hour after dinner,235,Figure 21,16
