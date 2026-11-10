@@ -1,0 +1,24 @@
+# Source: Kopp, M. B., S.T. Yau High School Science Award research report, 16 August 2024.
+# Numbers below appear in the manuscript prose. No numerical table of calibration points is printed.
+# The manuscript does not state an R^2 or an MAE.
+# Self-test: author's own finger; empty stomach and half an hour after food consumption (section 4.4, p. 16).
+quantity,value,unit,section,page,notes
+photoresponsivity_at_1V,0.15,mA/W,4.1,8,"a photoresponsivity of 0.15 mA/W can be calculated at a bias voltage of 1 V, according to Equation (7)"
+external_quantum_efficiency,0.028,percent,4.1,8,The external quantum efficiency (EQE) is calculated as 0.028%
+photocurrent_maximum_angle,150,deg,4.1,8,"At theta = 150 degrees, the photocurrent reaches maximum; light polarization parallel to the zigzag axis"
+photocurrent_period,180,deg,4.1,8,variation of the photocurrent at a period of 180 degrees
+solution_concentration_range_low,36,mg/dL,4.2,9,"ranging from 36 mg/dL to 180 mg/dL (Figure 9, Figure 10)"
+solution_concentration_range_high_first_series,180,mg/dL,4.2,9,
+solution_concentration_range_extended_high,1080,mg/dL,4.2,11,extended up to 1080 mg/dL (Figure 12)
+detection_sensitivity,1.59,deg_per_mg_per_dL,4.2 and conclusion,10 and 18,detection sensitivity of 1.59 deg/(mg/dL) (Figure 11)
+self_test_polarization_angle_rotation,100,deg,4.4,16,A polarization angle rotation of 100 degrees was measured
+self_test_inferred_glucose_increase,62.9,mg/dL,4.4,16,"corresponds to an increasement of blood glucose level by 62.9 mg/dL, using 1.59 deg/(mg/dL)"
+ml_example_concentration_good_fit,360,mg/dL,4.3.2,14,"At C=360 mg/dl, the fitting effect is good"
+ml_example_concentration_poor_fit,108,mg/dL,4.3.2,14,"at C=108 mg/dl, significant deviation (Normal Equation)"
+ml_example_concentration_n2_also_discussed,900,mg/dL,4.3.2,15,good at C=360 mg/dl and C=900 mg/dl (n=2)
+gradient_descent_learning_rate_n1,0.04,,4.3.2,14,"learning rate alpha=0.04, highest power n=1 (Figure 15)"
+gradient_descent_n1_loss_plateau_step_approx,250,step,4.3.2,14,slowing down around step 250
+gradient_descent_n1_stable_loss,2.6463,,4.3.2,14,stabilizing at a stable value of 2.6463
+gradient_descent_learning_rate_n2,0.04,,4.3.2,15,"alpha=0.04, highest power N=2 (Figure 18)"
+gradient_descent_n2_loss_plateau_step_approx,200,step,4.3.2,15,slowing down around step 200
+gradient_descent_n2_stable_loss,0.00069203,,4.3.2,15,stabilizing at a stable value of 0.00069203

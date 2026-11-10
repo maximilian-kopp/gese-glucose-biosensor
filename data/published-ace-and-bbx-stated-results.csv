@@ -1,0 +1,18 @@
+# Additional published numbers cited in the README, for comparison with the Yau manuscript (the primary source for this package).
+# ACE: Kopp, Appl. Comput. Eng. 72:45-58, 2024, doi:10.54254/2755-2721/72/20240981 (CC BY 4.0). From the ACE full text.
+# B&B:X: Kopp, Biosens. Bioelectron. X 28:100725, 2025, doi:10.1016/j.biosx.2025.100725 (published version CC BY 4.0).
+# B&B:X values are from the ScienceDirect / DOAJ abstract only; the publisher PDF was not retrieved in earlier packaging work (Cloudflare block; not in PMC as of 2026-11-10).
+source,quantity,value,unit,where,notes
+ACE 2024,detection_sensitivity,1.59,deg_per_mg_per_dL,"ACE section 4.2, pp. 52 and 56",same wording as the Yau manuscript
+ACE 2024,solution_range,36-180 then to 1080,mg/dL,ACE section 4.2,
+ACE 2024,self_test_rotation,100,deg,"ACE section 4.4, p. 56",
+ACE 2024,self_test_inferred_increase,62.9,mg/dL,"ACE section 4.4, p. 56",
+ACE 2024,laser_wavelength_in_text,690,nm,"ACE section 3.2, p. 50",ACE Figure 5 is labeled 632 nm; the Yau manuscript text says 658 nm
+B&B:X 2025 abstract,in_vitro_range,50-300,mg/dL,abstract,In-vitro tests across 50-300 mg/dL
+B&B:X 2025 abstract,linear_phase_sensitivity,1.59e-2,deg_per_mg_per_dL,abstract,1.59 x 10^-2 deg (mg/dL)^-1
+B&B:X 2025 abstract,detection_limit,approximately 12,mg/dL,abstract,approximately 12 mg/dL
+B&B:X 2025 abstract,in_vitro_R2,0.96,,abstract,R^2 = 0.96 in the in-vitro / detection-limit sentence
+B&B:X 2025 abstract,fingertip_vs_glucometer_R2,0.91,,abstract,R^2 = 0.91 versus glucometer readings; abstract wording is preliminary in-vivo reflectance measurements from a fingertip
+B&B:X 2025 abstract,gradient_boosting_error_reduction,>20,percent,abstract and highlights,
+B&B:X 2025 abstract,gradient_boosting_MAE,8.6,mg/dL,abstract,
+B&B:X 2025 abstract,gradient_boosting_RMSE,11.2,mg/dL,abstract,

@@ -1,0 +1,31 @@
+# Source: Kopp, M. B. Analysis of the Polarized Photo Response of GeSe and Its Application in Non-invasive Blood Glucose Monitoring.
+# S.T. Yau High School Science Award research report, 16 August 2024. Germantown Academy.
+# Values below are taken only from the manuscript text, not from plots.
+# Page numbers are the manuscript's own pagination (footer), not the PDF file page index.
+# Section 3.2 text gives the laser wavelength as 658 nm (p. 7). Figure 6 (p. 7) is labeled 632nm laser. This table records the text value.
+parameter,value,unit,section,page,notes
+GeSe_source,HQ Graphene single crystals,,3.1,6,mechanically exfoliated from GeSe single crystals (HQ Graphene)
+exfoliation_tape,Nitto tape,,3.1,6,text spelling Nito tape; Figure 5 caption uses Nitto
+transfer_method,PDMS-assisted dry transfer,,3.1,6,transferred to flexible PET using PDMS-assisted dry transfer
+substrate,polyethylene terephthalate (PET),,3.1,6,
+electrode_type,cross-finger gold electrodes,,3.1,6,
+electrode_spacing,60,um,3.1,6,spacing of 60 um (Figure 5a)
+post_transfer_heat_temperature,60,deg_C,3.1,6,heated at a low temperature of 60 C for 5 minutes
+post_transfer_heat_time,5,min,3.1,6,
+laser_wavelength_nm_in_text,658,nm,3.2,7,under the illuminance of a 658 nm laser (Figure 6)
+example_photon_energy_for_658nm,1.88,eV,2.2,5,"for example, 658 nm equals to 1.88 eV"
+source_meter,Keithley 2450,,3.2,7,high-precision source meter (Keithley 2450)
+characterization_environment,optical darkroom at room temperature,,3.2,7,
+half_wave_plate_mechanical_rotation,0 to 90,deg,4.1,8,"half-wave plate is rotated from 0 to 90 degrees, thereby changing the light polarization angle from 0 to 180 degrees"
+polarization_angle_range,0 to 180,deg,3.2 and 4.1,7-8,photocurrent measured while rotating the half-wave plate from 0 to 180 degrees
+solution_bias_voltage,1,V,4.2,9,current under 1V bias voltage
+figure8_laser_power,5,mW,4.1 / Fig. 8 caption,8,I-V curves under dark conditions and with a 5 mW laser irradiation
+DFT_code,VASP,,2.2,5,density functional theory as implemented in VASP
+DFT_functional,PBE GGA; PAW potentials,,2.2,5,
+DFT_unit_cell,1x1 GeSe with 4 atomic layers,,2.2,5,
+DFT_vacuum,30,angstrom,2.2,5,vacuum layer along z
+DFT_k_grid,8x8x1 Gamma-centered Monkhorst-Pack,,2.2,5,
+DFT_plane_wave_cutoff,400,eV,2.2,5,
+DFT_force_convergence,0.01,eV/angstrom,2.2,5,Hellmann-Feynman forces less than 0.01 eV/angstrom
+DFT_energy_convergence,1e-6,eV,2.2,5,total energy changes less than 10^-6 eV
+fingertip_geometry,reflected and scattered light from the author's finger,,3.2 and 4.4,7 and 16,I tried to irradiate my finger with the laser
